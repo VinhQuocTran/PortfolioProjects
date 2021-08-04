@@ -1,8 +1,7 @@
 # Tableau Profile: https://public.tableau.com/app/profile/vinhtran
 # Create table and import data from csv file
-CREATE TABLE covid 
-(
-iso_code VARCHAR(255),
+CREATE TABLE covid (
+	iso_code VARCHAR(255),
     continent VARCHAR(255),
     location VARCHAR(255),
     date DATE,
