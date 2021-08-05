@@ -48,11 +48,13 @@ GROUP BY location;
 
 
 # Deaths count per continent each month
-select
-Continent,
-date,
-sum(new_Deaths) Total_deaths,
-sum(new_cases) Total_cases
-from covid
-where continent not like ''
-group by extract(month from date), continent
+SELECT 
+    Continent,
+    date,
+    SUM(new_Deaths) Total_deaths,
+    SUM(new_cases) Total_cases
+FROM
+    covid
+WHERE
+    continent NOT LIKE ''
+GROUP BY EXTRACT(MONTH FROM date) , continent
