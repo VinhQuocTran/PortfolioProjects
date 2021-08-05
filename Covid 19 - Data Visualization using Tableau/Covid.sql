@@ -1,4 +1,4 @@
-# Tableau Profile: https://public.tableau.com/app/profile/vinhtran
+# My Tableau Public Profile: https://public.tableau.com/app/profile/vinhtran
 # Create table and import data from csv file
 CREATE TABLE covid (
     iso_code VARCHAR(255),
