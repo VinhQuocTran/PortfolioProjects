@@ -2,7 +2,7 @@
 # Create table for storing data
 create table nashvillehouse
 (
-	UniqueID varchar(255),
+    UniqueID varchar(255),
     ParcelID varchar(255),
     LandUse varchar(255),
     PropertyAddress varchar(255),
