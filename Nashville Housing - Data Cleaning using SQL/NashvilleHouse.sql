@@ -119,7 +119,7 @@ FROM nashvillehouse
 GROUP BY PropertyAddress, ParcelID,SaleDate,LegalReference
 HAVING COUNT(*)>1;
 
-# Second Method: use With and ROW_NUMBER
+# Second Method: WITH and ROW_NUMBER
 With 
 rowNumCTE as (select ROW_NUMBER() OVER (PARTITION BY PropertyAddress,ParcelID,LegalReference,SaleDate) as row_num from nashvillehouse )
 select *
@@ -128,17 +128,15 @@ where row_num>1;
 
 
 # keep the lowest record uniqueID and remove all duplicate values 
-delete from nashvillehouse 
-where
-uniqueID not in (SELECT min(uniqueID) FROM ( 
-select * from nashvillehouse) as temp GROUP BY PropertyAddress, ParcelID, SaleDate,LegalReference);
-
-
-# keep the lowest record uniqueID and remove all duplicate values 
-select 	a.ParcelID,a.PropertyAddress,a.uniqueID,b.uniqueID from nashvillehouse a,nashvillehouse b
-where 	a.PropertyAddress=b.PropertyAddress and
-		a.ParcelID=b.ParcelID and
-        a.uniqueID <> b.uniqueID;
+DELETE FROM nashvillehouse
+WHERE UniqueID IN (
+  SELECT calc_id FROM (
+    SELECT MIN(UniqueID) AS calc_id
+    FROM nashvillehouse
+    GROUP BY PropertyAddress,ParcelID,LegalReference,SaleDate
+    HAVING COUNT(UniqueID) > 1
+  ) temp
+);
 
 ---------------------------------------------------------------------------------------------------------
 
