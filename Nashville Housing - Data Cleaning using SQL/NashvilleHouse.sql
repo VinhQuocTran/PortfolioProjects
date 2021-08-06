@@ -120,9 +120,9 @@ GROUP BY PropertyAddress, ParcelID,SaleDate,LegalReference
 HAVING COUNT(*)>1;
 
 # Second Method: WITH and ROW_NUMBER
-With 
-rowNumCTE as (select ROW_NUMBER() OVER (PARTITION BY PropertyAddress,ParcelID,LegalReference,SaleDate) as row_num from nashvillehouse )
-select *
+WITH 
+rowNumCTE AS (SELECT ROW_NUMBER() OVER (PARTITION BY PropertyAddress,ParcelID,LegalReference,SaleDate) AS row_num from nashvillehouse )
+SELECT *
 FROM RowNumCTE
 where row_num>1;
 
