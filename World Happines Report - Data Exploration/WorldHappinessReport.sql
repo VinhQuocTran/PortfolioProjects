@@ -4,7 +4,7 @@ Skills used: CTE's, Temp Tables, Windows Functions, Aggregate Functions, Create 
 */
 
 # The topic of today is: Is money the ONLY factor that contributes to a country's happiness ?
-# We will use World Happiness Report 2021 (modified version) data and MySQL to answer this question
+# We will use World Happiness Report 2021 data (modified version) and MySQL to answer this question
 
 # Features that we use to determine a country's happiness:
 # 	Economy: GDP per capita
