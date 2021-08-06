@@ -50,6 +50,7 @@ join nashvillehouse b on a.ParcelID=b.ParcelID
 set a.PropertyAddress=b.PropertyAddress
 where a.PropertyAddress like '' and a.UniqueID<>b.UniqueID;
 
+--------------------------------------------------------------------------------------------------------------------------
 
 # Remove double quotes from columns containing comma
 UPDATE nashvillehouse SET 
@@ -57,7 +58,6 @@ PropertyAddress = REPLACE(PropertyAddress, '"', ''),
 OwnerName = REPLACE(OwnerName, '"', ''),
 OwnerAddress = REPLACE(OwnerAddress, '"', '');
 
---------------------------------------------------------------------------------------------------------------------------
 
 # Splitting Address into Individual Columns: Address, City, State
 select
