@@ -150,4 +150,3 @@ WHERE UniqueID IN (
      DROP TaxDistrict,
      DROP PropertyAddress,
      DROP SaleDate;
-
