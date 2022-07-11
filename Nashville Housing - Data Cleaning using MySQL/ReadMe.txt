@@ -1,4 +1,4 @@
-Data Preprocessing (Data Cleaning, Data Tranforming, Data Reduction,..) always plays a crucial roles in Data Science Project. But yet it is still very underrated in the Data Analyst community, so I hope that this project can be a guidance to brush up your skills and help you to understand more about Data Preprocessing
+Data Preprocessing (Data Cleaning, Data Tranforming, Data Reduction,..) always plays a crucial roles in Data Science Project. But yet it is still very underrated in the Data Analyst community, so I hope that this project can be a guidance to brush up your skills and also help you to understand more about Data Preprocessing
 
 a few skills that you might learn after going through the project
 1. Common Table Expression (CTE)
