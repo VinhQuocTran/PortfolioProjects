@@ -4,4 +4,4 @@ a few skills that you might learn after going through the project
 1. Common Table Expression (CTE)
 2. Windows, Aggregate Functions
 3. Create View, Temp Tables
-4. Basic DDL, DML, DCL commands in MySQL (if you don't know those word is, google might be your best friend)
+4. Basic DDL, DML, DCL commands in MySQL (if you don't know those words stand for, google might be your best friend)
