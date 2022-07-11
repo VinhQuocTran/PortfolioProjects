@@ -1,4 +1,4 @@
-In this project, I apply my knowledge of Python programming skills to guide you through a typical stage of customer segmentation tasks.
+In this project, I apply my knowledge of Python programming skills to guide you through typical stages of customer segmentation tasks.
 
 Some skills that I used for this project
 1. Data Preprocessing (Data Cleaning, Manipulation, Wrangling)
