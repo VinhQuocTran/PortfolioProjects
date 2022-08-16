@@ -1,0 +1,32 @@
+# Note:
+ extract() = getall()
+ extract_first() = get()
+ => get() and getall() is the new version of extract()
+ response.body
+ response.url
+
+scrapy crawl spider
+scrapy crawl spider -o houses.json
+scrapy crawl spider -o houses.csv
+
+https://batdongsan.com.vn/
+
+# Scrap element contains names
+response.xpath("//div[contains(@class, 'shop-search-result-view__item')]").getall()
+
+
+
+
+
+        # all_books=response.xpath('//article')
+    #     all_houses_prices=response.xpath('//div[@class = "unit-price"]/text()').getall()
+    #     all_houses_area=response.xpath('//span[@class = "acreage"]/text()').getall()
+    #     all_houses_title=response.xpath('//div[@class = "product-item-top"]/a/@title').getall()
+    #     all_houses_href=response.xpath('//div[@class = "product-item-top"]/a/@href').getall()
+
+        
+    #     for href in all_houses_href:
+    #         print(href)
+
+    # def parse_house(self,response):
+    #     all_house=
