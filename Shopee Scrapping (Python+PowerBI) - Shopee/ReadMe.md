@@ -12,3 +12,5 @@
 1. Power Query and Power Pivot
 2. Basic charts in Power BI
 3. How to build clean, interactive Dashboard that has filters for reporting and visualizing
+
+![plot](./Dashboard.png)
