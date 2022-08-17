@@ -1,6 +1,6 @@
 
 ## Introduction and Objective ##
-* This project has 2 parts: Data Preprocessing in Python and Excel Dashboard. If you are interested in how I transformed and cleaned the dataset for the project, you can open DataPreprocessing.ipynb in Part 1 folder. Otherwise, just open the excel file in Part 2 folder and check out the amazing-interactive dashboard that I made for company sales.e
+This project has 2 parts: Data Preprocessing in Python and Excel Dashboard. If you are interested in how I transformed and cleaned the dataset for the project, you can open DataPreprocessing.ipynb in Part 1 folder. Otherwise, just open the excel file in Part 2 folder and check out the amazing-interactive dashboard that I made for company sales.e
 
 ## Skills Acquired ##
 Some Excel skills that I acquired and used after finished the project
