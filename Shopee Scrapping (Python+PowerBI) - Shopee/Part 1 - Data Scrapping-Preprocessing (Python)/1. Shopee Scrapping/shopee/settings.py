@@ -1,6 +1,6 @@
-BOT_NAME = 'lazada'
-SPIDER_MODULES = ['lazada.spiders']
-NEWSPIDER_MODULE = 'lazada.spiders'
+BOT_NAME = 'shopee'
+SPIDER_MODULES = ['shopee.spiders']
+NEWSPIDER_MODULE = 'shopee.spiders'
 ROBOTSTXT_OBEY = False
 FEED_EXPORT_ENCODING = 'utf-8-sig'
 SPLASH_URL = 'http://localhost:8050'
