@@ -5,10 +5,11 @@
 * If you want to read directly or modify and run step by step, just click or download CustomerSegmentation.ipynb and you are good to go
 
 ## Skills Acquired ##
-Some Excel skills that I acquired and used after finished the project
-1. Power Query and Power Pivot (I never realized that how easy and powerful they are for data cleaning and transforming)
-2. Data model and pivot table
-3. Dynamic named ranged and data source for chart
-4. How to build clean, interactive Dashboard that has filters for reporting and visualizing
+Some Python skills that I used in this project
+1. Data Preprocessing (Data Cleaning, Manipulation, Wrangling)
+2. Data Visualization (Histogram, bar chart, pie chart, box plot, swarmplot)
+3. Feature Engineering and Standardization
+4. Machine Learning (K-Mean algorithm) for Customer Segmentation
+5. Model Evaluation and Visualization
 
 ![plot](./picture.png)
