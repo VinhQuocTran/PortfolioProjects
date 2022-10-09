@@ -3,8 +3,8 @@
 * The truth hurts but then you have to accept and realize that if you want to find a unique dataset for your project, you can't rely entirely on public platforms. No need to worry about, I will show you how I scrape my own dataset using Scrapy library in this project.
 
 ## Introduction and Objective ##
-* We will learn how to scrap a dataset of products's information from Shopee (an Ecommerce platform) using Scrapy , how to clean and make use of that data to extract more useful features. Furthermore, we're going to get our hands dirty in Power BI by creating a product dashboard
-* The project includes 2 parts: Data Scrapping and Power BI dashboard. You can jump straight to dashboard if you just want to see some visualizations and don't care about technical part.
+* We will learn how to scrap a dataset of products's information from Shopee (an Ecommerce platform) using Selenium and BeautifulSoup , how to clean and make use of that data to extract more useful features. Furthermore, we're going to get our hands dirty in Power BI by creating a product dashboard
+* The project includes 2 parts: Data Scrapping and Power BI dashboard. You can jump straight to dashboard if you just want to see some visualizations and don't care about technical parts.
 * a Shopee store that we scrape today is Coolmate. It is a minimalistic fashion brand which's been popular in Vietnam recently because their fashion aims specifally for young men who value comfort and ease over fashionable clothes. 
 * You can change URL in Scrapy to scrape any Shopee store that you like
 
